@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Stuff Stuff.co.nz",
-  "description": "Removes login modal from Stuff.co.nz.",
+  "description": "Stops the modal appearing on Stuff.co.nz quizzes.",
   "version": "1.0",
   "permissions": ["activeTab"],
   "host_permissions": ["https://www.stuff.co.nz/*"],
