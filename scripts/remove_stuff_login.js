@@ -3,6 +3,5 @@
 document.addEventListener('DOMContentLoaded', function () {
   const emptyScript = document.createElement('script');
   emptyScript.id = 'piano-script';
-  emptyScript.style.display = 'none';
   document.body.appendChild(emptyScript);
 });
