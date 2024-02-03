@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Stuff Stuff.co.nz",
+  "description": "Removes login modal from Stuff.co.nz.",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://www.stuff.co.nz/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.stuff.co.nz/*"],
+      "js": ["remove_stuff_login.js"]
+    }
+  ]
+}
