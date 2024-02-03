@@ -11,5 +11,10 @@
       "js": ["scripts/remove_stuff_login.js"],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "icons": {
+    "16": "assets/Favicon-16x16.png",
+    "48": "assets/Favicon-48x48.png",
+    "128": "assets/Favicon-128x128.png"
+  }
 }
